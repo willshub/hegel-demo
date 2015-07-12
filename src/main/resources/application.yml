@@ -1,0 +1,25 @@
+spring:
+  profiles.active: default
+---
+spring:
+  profiles: default
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/emptyapp_development
+    username: hegel_admin
+    password: hegelrocks
+
+---
+spring:
+  profiles: dev
+  datasource:
+    url: jdbc:postgresql://ec2-107-20-223-116.compute-1.amazonaws.com:5432/d5k31mlg0430fq?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory
+    username: scqvljsjprehhq
+    password: 1EUk0WVrqdt0Gw6Hu6nNRVs7eA
+---
+spring:
+  profiles: prod
+  datasource:
+    url:
+    username:
+    password:
