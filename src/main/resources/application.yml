@@ -13,9 +13,9 @@ spring:
 spring:
   profiles: dev
   datasource:
-    url: jdbc:postgresql://ec2-107-20-223-116.compute-1.amazonaws.com:5432/d5k31mlg0430fq?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory
-    username: scqvljsjprehhq
-    password: 1EUk0WVrqdt0Gw6Hu6nNRVs7eA
+    url: jdbc:postgresql://ec2-107-22-175-206.compute-1.amazonaws.com:5432/d1po0br0s2pqgc?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory
+    username: nhahhpbvmpyigu
+    password: BKUEXZ-Dn1uQ-B6vPMejTedvGI
 ---
 spring:
   profiles: prod
