@@ -5,21 +5,14 @@ spring:
   profiles: default
   datasource:
     driverClassName: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/emptyapp_development
-    username: hegel_admin
-    password: hegelrockSSs
+    url:
+    username:
+    password:
 
 ---
 spring:
   profiles: dev
-  datasource:
-    url:
-    username:
-    password:
 ---
 spring:
   profiles: prod
-  datasource:
-    url:
-    username:
-    password:
+
