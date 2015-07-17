@@ -7,15 +7,15 @@ spring:
     driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/emptyapp_development
     username: hegel_admin
-    password: hegelrocks
+    password: hegelrockSSs
 
 ---
 spring:
   profiles: dev
   datasource:
-    url: jdbc:postgresql://ec2-107-22-175-206.compute-1.amazonaws.com:5432/d1po0br0s2pqgc?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory
-    username: nhahhpbvmpyigu
-    password: BKUEXZ-Dn1uQ-B6vPMejTedvGI
+    url:
+    username:
+    password:
 ---
 spring:
   profiles: prod

@@ -4,3 +4,4 @@ pom.xml.bak
 .idea/*
 out/*
 *.iml
+.env
